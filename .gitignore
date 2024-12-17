@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# 忽略没有扩展名的文件
+*
+# 但不忽略有扩展名的文件
+!*.*
+.vscode
